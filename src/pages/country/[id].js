@@ -135,7 +135,7 @@ export async function getStaticPaths() {
   }));
 
   return {
-    path,
+    paths,
     fallback: false,
   };
 }
